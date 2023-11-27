@@ -449,6 +449,7 @@ ul {
 
 .articles .box .content h3 {
     margin: 0;
+    text-align: center;
 }
 
 .articles .box .content p {
