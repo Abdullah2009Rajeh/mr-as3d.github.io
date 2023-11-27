@@ -458,6 +458,7 @@ ul {
 }
 
 .articles .box .info {
+    height: max-content
     padding: 20px 80px;
     border-top: 1px solid #e6e6e7;
     display: flex;
@@ -471,6 +472,7 @@ ul {
 }
 
 .articles .box .info i {
+    text-align: center;
     color: var(--main-color);
 }
 
