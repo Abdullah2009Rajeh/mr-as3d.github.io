@@ -468,6 +468,7 @@ ul {
 }
 
 .articles .box .info a {
+    display: block;
     width: max-content;
     margin: auto;
     color: var(--main-color);
