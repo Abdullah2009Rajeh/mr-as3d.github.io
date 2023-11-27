@@ -431,6 +431,7 @@ ul {
     border-radius: 6px;
     overflow: hidden;
     transition: transform var(--main-transition), box-shadow var(--main-transition);
+    max-height: max-content;
 }
 
 .articles .box:hover {
