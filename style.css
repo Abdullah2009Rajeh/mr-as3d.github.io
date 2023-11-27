@@ -461,9 +461,10 @@ ul {
 .articles .box .info {
     padding: 20px 80px;
     border-top: 1px solid #e6e6e7;
-    display: flex;
+    display: block;
+/*     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
 }
 
 .articles .box .info a {
@@ -473,6 +474,7 @@ ul {
 
 .articles .box .info i {
     color: var(--main-color);
+    text-align: center;
 }
 
 
