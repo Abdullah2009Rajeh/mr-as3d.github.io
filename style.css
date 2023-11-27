@@ -469,6 +469,7 @@ ul {
 .articles .box .info a {
     color: var(--main-color);
     font-weight: bold;
+    text-align: center;
 }
 
 .articles .box .info i {
