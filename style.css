@@ -468,6 +468,8 @@ ul {
 }
 
 .articles .box .info a {
+    position: absolute;
+    left: 50%;
     color: var(--main-color);
     font-weight: bold;
 }
