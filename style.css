@@ -431,7 +431,6 @@ ul {
     border-radius: 6px;
     overflow: hidden;
     transition: transform var(--main-transition), box-shadow var(--main-transition);
-    max-height: max-content;
 }
 
 .articles .box:hover {
@@ -459,7 +458,6 @@ ul {
 }
 
 .articles .box .info {
-    height: 16px;
     padding: 20px 80px;
     border-top: 1px solid #e6e6e7;
     display: flex;
@@ -470,11 +468,9 @@ ul {
 .articles .box .info a {
     color: var(--main-color);
     font-weight: bold;
-    text-align: center;
 }
 
 .articles .box .info i {
-    text-align: center;
     color: var(--main-color);
 }
 
