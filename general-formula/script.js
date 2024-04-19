@@ -9,7 +9,7 @@ function calculate() {
     var posX = (-b + Math.sqrt(discriminant)) / (2 * a);
     var negX = (-b - Math.sqrt(discriminant)) / (2 * a);
     document.getElementById("result").innerHTML =
-      "Positive X: " + posX.toFixed(2) + "<br>Negative X: " + negX.toFixed(2);
+      "X1: " + posX.toFixed(2) + "<br>X2: " + negX.toFixed(2);
   } else {
     document.getElementById("result").innerHTML =
       "Invalid input. Discriminant is negative or 'a' is zero.";
