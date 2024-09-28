@@ -1262,7 +1262,7 @@ ul {
 
 @media (max-width: 767px) {
   .icons a {
-    padding: 5px;
+    padding: 0;
   }
 
   .icons a span {
