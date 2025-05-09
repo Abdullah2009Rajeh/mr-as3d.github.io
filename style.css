@@ -10,6 +10,14 @@ body {
     background-color: #eee;
 }
 
+
+@media (max-width: 767px) {
+    .files-page .files-content {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
 .heading {
     color: #444;
     font-size: 40px;
